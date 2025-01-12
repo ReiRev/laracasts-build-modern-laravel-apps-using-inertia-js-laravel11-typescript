@@ -13,3 +13,14 @@ The following sections includes:
 - Key points
 
 Switch branches and complete the Todos to easily review and practice the concepts.
+
+## 02 Install and Configure Inertia
+
+### TODO
+
+- [ ] Create a new Laravel project with `laravel new`
+- [ ] Finish [server-side setup](https://inertiajs.com/server-side-setup). Note that `Kernel.php` doesn't exist in Laravel 11.
+- [ ] Finish [client-side setup](https://inertiajs.com/client-side-setup).
+
+### Key Points
+
