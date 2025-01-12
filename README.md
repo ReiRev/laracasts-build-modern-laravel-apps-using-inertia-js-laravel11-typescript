@@ -13,3 +13,16 @@ The following sections includes:
 - Key points
 
 Switch branches and complete the Todos to easily review and practice the concepts.
+
+## 02 Install and Configure Inertia
+
+### TODO
+
+- [ ] Create a new Laravel project with `laravel new`
+- [ ] Complete [server-side setup](https://inertiajs.com/server-side-setup). Note that `Kernel.php` is not present in Laravel 11.
+- [ ] Complete [client-side setup](https://inertiajs.com/client-side-setup). Also, add typescript support. The easiest way to do this is to create temporary vue project with `npm install @inertiajs/vue3`, then copy the files and merge the settings. Ensure you update several files like `package.json`, `.editorconfig`, `vite.config.ts`, etc. Change `*.js` to `*.ts`.
+
+### Key Points
+
+- `@inertia`
+- How the `InertiaApp` resolves `*.vue` file.
