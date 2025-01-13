@@ -51,3 +51,16 @@ php artisan serve
 - `inertia` / `Inertia::render` functions.
 - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
 - How to get props from Laravel.
+
+## 04 Inertia Links
+
+### TODO
+
+- [ ] Create `/users` and `/settings` pages. Display "Users" and "Settings" in the respective page heading.
+- [ ] Create a navigation bar (`nav`) in `Home.vue` that links to each page. Prevent page reloads during transitions. Verify SPA functionality by adding 2-second delay in `/user` endpoint.
+- [ ] Create reusable `Nav.vue` component and import it into each pages.
+
+### Key Points
+
+- [ ] Distinguish between standard anchor tags and Inertia's Link component.
+- [ ] Explore the typical Inertia directory structure.

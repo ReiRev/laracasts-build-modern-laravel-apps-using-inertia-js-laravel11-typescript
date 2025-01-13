@@ -13,3 +13,12 @@ Route::get('/', function () {
         ]
     ]);
 });
+
+Route::get('/users', function () {
+    sleep(2);
+    return Inertia::render('Users');
+});
+
+Route::get('/settings', function () {
+    return Inertia::render('Settings');
+});
