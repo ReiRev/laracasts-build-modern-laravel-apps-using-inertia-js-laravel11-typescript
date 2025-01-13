@@ -1,13 +1,8 @@
 <script setup lang="ts">
 import Nav from '@/Shared/Nav.vue';
-
-defineProps<{
-  name: string,
-  frameworks: [string]
-}>();
 </script>
 
 <template>
-<h1>Hello, {{ name }}</h1>
+<h1>Settings</h1>
 <Nav />
 </template>
