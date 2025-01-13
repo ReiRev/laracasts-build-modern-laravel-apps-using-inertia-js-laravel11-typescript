@@ -138,3 +138,13 @@ Note: Inertia now includes default progress indicator.
 
 - Method for sharing data across all pages, including conventions and potential risk.
 - How to define the type of `PageProps`.
+
+## 11 Global Component Registration
+
+### TODO
+
+- [ ] Make Link component globally accessible without requiring an import statement.
+
+### Key Points
+
+- The usage of App.component.
