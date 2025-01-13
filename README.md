@@ -192,3 +192,20 @@ Note: Inertia now includes default progress indicator.
 ### Key Points
 
 - The idea of vendor extraction.
+
+## 15 Dynamic Title and Meta Tags
+
+### TODO
+
+- [ ] Remove iframe in Layout.vue.
+- [ ] Add page-specific titles.
+- [ ] Set a default title.
+- [ ] Set a default meta description and override it from Home.vue.
+- [ ] Add "My App - " prefix to every page title.
+- [ ] Make the Head component accessible without requiring import.
+
+### Key Points
+
+- Head component
+- Dynamic Title
+- Meta tags.
