@@ -148,3 +148,25 @@ Note: Inertia now includes default progress indicator.
 ### Key Points
 
 - The usage of App.component.
+
+## 12 Persistent Layouts
+
+### TODO
+
+- [ ] Make the Layout component persistent. Test if that works correctly by embedding the following iframe with the Layout component.
+
+```html
+<iframe
+    class="mb-6"
+    width="100%"
+    frameborder="no"
+    scrolling="no"
+    seamless
+    src="https://player.simplecast.com/fd0bd2ba-c553-466c-a060-b144797ce369?dark=false"
+/>
+```
+
+### Key Points
+
+- Challenges of nesting layout component within page component.
+- The idea of persistent component.
