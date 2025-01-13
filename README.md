@@ -62,8 +62,8 @@ php artisan serve
 
 ### Key Points
 
-- [ ] Distinguish between standard anchor tags and Inertia's Link component.
-- [ ] Explore the typical Inertia directory structure.
+- Distinguish between standard anchor tags and Inertia's Link component.
+- Explore the typical Inertia directory structure.
 
 ## 05 Progress Indicators
 
@@ -75,7 +75,7 @@ Note: Inertia now includes default progress indicator.
 
 ### Key Points
 
-- [ ] Techniques for customizing the progress indicator.
+- Techniques for customizing the progress indicator.
 
 ## 06 Perform Non-GET Requests
 
@@ -89,7 +89,7 @@ Note: Inertia now includes default progress indicator.
 
 ### Key Points
 
-- [ ] Method for sending HTTP requests other than GET.
+- Method for sending HTTP requests other than GET.
 
 ## 07 Preserve the Scroll Position
 
@@ -101,4 +101,16 @@ Note: Inertia now includes default progress indicator.
 
 ### Key Points
 
-- [ ] Techniques for preserving the user's scroll position when navigating a page.
+- Techniques for preserving the user's scroll position when navigating a page.
+
+## Active Links
+
+### TODO
+
+- [ ] Investigate Inertia component's props with vue devtools.
+- [ ] Highlight the links in `Nav.vue` when the current page URL matches the link's URL.
+- [ ] Create reusable `NavLink.vue` to simplify the implementation.
+
+### Key Points
+
+- Props of Inertia component.
