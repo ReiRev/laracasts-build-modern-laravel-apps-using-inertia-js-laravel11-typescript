@@ -103,7 +103,7 @@ Note: Inertia now includes default progress indicator.
 
 - Techniques for preserving the user's scroll position when navigating a page.
 
-## Active Links
+## 08 Active Links
 
 ### TODO
 
@@ -114,3 +114,13 @@ Note: Inertia now includes default progress indicator.
 ### Key Points
 
 - Props of Inertia component.
+
+## 09 Layout Files
+
+### TODO
+
+- [ ] Create `Layout.vue` and apply taiwlind styles.
+
+### Key Points
+
+- Reusable components.
