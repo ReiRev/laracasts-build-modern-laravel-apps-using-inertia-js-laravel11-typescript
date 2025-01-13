@@ -21,6 +21,14 @@ const username = computed(() => auth.user.username)
 
   <section class="p-6">
     <div class="max-w-3xl mx-auto w-full">
+      <iframe
+        class="mb-6"
+        width="100%"
+        frameborder="no"
+        scrolling="no"
+        seamless
+        src="https://player.simplecast.com/fd0bd2ba-c553-466c-a060-b144797ce369?dark=false"
+      />
       <slot />
     </div>
   </section>
