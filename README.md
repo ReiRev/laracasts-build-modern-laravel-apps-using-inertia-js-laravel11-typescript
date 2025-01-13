@@ -90,3 +90,15 @@ Note: Inertia now includes default progress indicator.
 ### Key Points
 
 - [ ] Method for sending HTTP requests other than GET.
+
+## 07 Preserve the Scroll Position
+
+### TODO
+
+- [ ] Display the current server-side time in `Users.vue`.
+- [ ] Add top margin to require scrolling to view the time.
+- [ ] Include a "Refresh" link. Maintain the current scroll position after refreshing the page.
+
+### Key Points
+
+- [ ] Techniques for preserving the user's scroll position when navigating a page.
