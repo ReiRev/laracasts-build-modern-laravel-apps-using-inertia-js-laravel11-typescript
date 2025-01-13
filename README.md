@@ -170,3 +170,14 @@ Note: Inertia now includes default progress indicator.
 
 - Challenges of nesting layout component within page component.
 - The idea of persistent component.
+
+## 13 Default Layouts
+
+### TODO
+
+- [ ] Implement a default layout.
+- [ ] Allow for overriding the default layout when a layout is provided.
+
+### Key Points
+
+- The mechanism for supplying overriding page props.

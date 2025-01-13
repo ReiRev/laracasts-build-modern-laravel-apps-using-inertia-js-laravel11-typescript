@@ -1,14 +1,7 @@
 <script setup lang="ts">
-import { defineProps } from 'vue'
-import Layout from '@/Shared/Layout.vue'
-
 defineProps<{
   time: string
 }>()
-
-defineOptions({
-  layout: Layout,
-})
 </script>
 
 <template>
