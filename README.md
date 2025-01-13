@@ -124,3 +124,17 @@ Note: Inertia now includes default progress indicator.
 ### Key Points
 
 - Reusable components.
+
+## 10 Shared Data
+
+### TODO
+
+- [ ] Add user data that can be accessed from any page. For now, hardcode a username. 
+- [ ] Display "Welcome Back, {username}!" message in navigation bar. 
+- [ ] Define the type of shared data. 
+- [ ] Use computed prop for username.
+
+### Key Points
+
+- Method for sharing data across all pages, including conventions and potential risk.
+- How to define the type of `PageProps`.
