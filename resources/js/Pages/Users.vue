@@ -9,7 +9,7 @@ defineProps<{
 </script>
 
 <template>
-  <h1>Users</h1>
+  <h1 class="text-4xl font-bold">Users</h1>
   <Nav />
   <div style="margin-top: 400px">
     <p>The current time is {{ time }}.</p>
