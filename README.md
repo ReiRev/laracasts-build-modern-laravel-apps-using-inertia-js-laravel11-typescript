@@ -14,6 +14,16 @@ The following sections includes:
 
 Switch branches and complete the Todos to easily review and practice the concepts.
 
+## Start server
+
+```
+npm run dev
+```
+
+```
+php artisan serve
+```
+
 ## 02 Install and Configure Inertia
 
 ### TODO
@@ -26,3 +36,18 @@ Switch branches and complete the Todos to easily review and practice the concept
 
 - `@inertia`
 - How the `InertiaApp` resolves `*.vue` file.
+
+## 03 Pages
+
+### TODO
+
+- [ ] Create `Welcome.vue` and show "Hello World".
+- [ ] Pass name prop from Laravel to frontend. Show "Hello, ${name}"
+- [ ] Rename `Welcome.vue` with `Home.vue`.
+- [ ] Pass frameworks prop from Laravel and show all of them.
+
+### Key Points
+
+- `inertia` / `Inertia::render` functions.
+- [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
+- How to get props from Laravel.
