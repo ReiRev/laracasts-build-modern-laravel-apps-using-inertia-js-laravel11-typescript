@@ -209,3 +209,16 @@ Note: Inertia now includes default progress indicator.
 - Head component
 - Dynamic Title
 - Meta tags.
+
+### 16 An Important SPA Security Concern
+
+### TODO
+
+- [ ] Create 100 dummy user data with Laravel's Seeder.
+- [ ] Show all users in `/users`.
+- [ ] Hide unnecessary user information.
+
+### Key Points
+
+- Security Issues of passing all data from backend.
+- Difference between SPA and traditional server-side application.
