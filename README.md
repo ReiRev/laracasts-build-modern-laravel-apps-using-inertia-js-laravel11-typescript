@@ -64,3 +64,15 @@ php artisan serve
 
 - [ ] Distinguish between standard anchor tags and Inertia's Link component.
 - [ ] Explore the typical Inertia directory structure.
+
+## 05 Progress Indicators
+
+Note: Inertia now includes default progress indicator.
+
+### TODO
+
+- [ ] Customize the progress indicator by changing its color and displaying a spinner. Refer to the [official document](https://inertiajs.com/progress-indicators) for more details.
+
+### Key Points
+
+- [ ] Techniques for customizing the progress indicator.
