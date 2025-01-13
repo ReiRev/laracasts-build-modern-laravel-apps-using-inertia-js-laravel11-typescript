@@ -76,3 +76,17 @@ Note: Inertia now includes default progress indicator.
 ### Key Points
 
 - [ ] Techniques for customizing the progress indicator.
+
+## 06 Perform Non-GET Requests
+
+### TODO
+
+- [ ] Implement `/logout` endpoint. Upon receiving a POST request, display a "logging out" message with `dd`. Add a logout button to `Nav.vue`.
+- [ ] Apply tailwind styling to `Home.vue` and `Nav.vue`.
+  - [ ] Increase the font size and weight of heading in `Home.vue`.
+  - [ ] Add padding to the entire page.
+  - [ ] Style links to appear blue and display an underline on hover.
+
+### Key Points
+
+- [ ] Method for sending HTTP requests other than GET.
