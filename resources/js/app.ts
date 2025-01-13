@@ -4,12 +4,10 @@ import { createInertiaApp, Link } from '@inertiajs/vue3'
 import Layout from './Shared/Layout.vue'
 
 createInertiaApp({
-  resolve: (name) => {
-    const pages: Record<string, DefineComponent> = import.meta.glob('./Pages/**/*.vue', {
-      eager: true,
-    })
-    const page = pages[`./Pages/${name}.vue`].default
-    page.layout ??= Layout
+  resolve: async (name) => {
+    const pages = import.meta.glob('./Pages/**/*.vue')
+    const page = (await pages[`./Pages/${name}.vue`]()) as DefineComponent
+    page.default.layout ??= Layout
     return page
   },
   setup({ el, App, props, plugin }) {

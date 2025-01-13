@@ -181,3 +181,14 @@ Note: Inertia now includes default progress indicator.
 ### Key Points
 
 - The mechanism for supplying overriding page props.
+
+## 14 Code Splitting and Dynamic Imports
+
+### TODO
+
+- [ ] Apply vendor extraction.
+- [ ] Apply code splitting.
+
+### Key Points
+
+- The idea of vendor extraction.
