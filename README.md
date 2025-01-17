@@ -222,3 +222,17 @@ Note: Inertia now includes default progress indicator.
 
 - Security Issues of passing all data from backend.
 - Difference between SPA and traditional server-side application.
+
+### 17 Pagination
+
+### TODO
+
+- [ ] Apply [table style provided by Tailwind](https://laracasts.com/series/build-modern-laravel-apps-using-inertia-js/episodes/17?page=3#reply-27903) to users table.
+- [ ] Check the result of `User::paginate()` and implement pagination. If the paginator element contains link, then display anchor. Otherwise, show span. Gray out the span since it's not clickable. Highlight the current page number. Hint: use Component.
+- [ ] Create reusable `Pagination.vue` component.
+- [ ] Only pass users' id and name to the frontend.
+
+### Key Points
+
+- How to use pagination in Inertia.
+- How to filter the props in pagination.
