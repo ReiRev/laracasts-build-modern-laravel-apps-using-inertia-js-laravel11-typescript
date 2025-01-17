@@ -12,7 +12,12 @@ Route::get('/', function () {
 
 Route::get('/users', function () {
     return Inertia::render('Users', [
-        'users' => User::all()->setVisible(['name', 'id'])
+        'users' => User::paginate(10)->through(
+            fn($user) => [
+                'id' => $user->id,
+                'name' => $user->name,
+            ]
+        )
     ]);
 });
 
