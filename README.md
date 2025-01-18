@@ -2,7 +2,7 @@
 
 This repository replicates [Build Modern Laravel Apps Using Inertia.js](https://laracasts.com/series/build-modern-laravel-apps-using-inertia-js) series from [Laracasts](https://laracasts.com/referral/reirev), using **Laravel 11** and **TypeScript**.
 
-This repository replicates the concepts from the Build Modern Laravel Apps Using Inertia.js series, with the key difference being the use of Laravel 11 and TypeScript.
+If you find this repository helpful, please give it a star! ⭐ It would really boost my motivation to keep creating and improving. Thank you!
 
 ## Branches
 
