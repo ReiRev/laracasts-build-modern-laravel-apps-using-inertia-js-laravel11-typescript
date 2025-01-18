@@ -347,4 +347,13 @@ This was almost done already.
 
 - How to split the build files.
 
+## 03 Serialization Security Concerns
 
+### TODO
+
+- [ ] Create an endpoint `/users/{user}` and its corresponding view.
+- [ ] Take measures in case you forget to serialize.
+
+### Key Points
+
+- The Importance of Serialization / The Risks of Not Serializing and Its Good Practices.
