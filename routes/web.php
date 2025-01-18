@@ -48,6 +48,12 @@ Route::middleware('auth')->group(function () {
         );
     });
 
+    Route::get('/users/{user}', function (User $user) {
+        return Inertia::render('Users/Show', [
+            'user' => $user->only(['id', 'name', 'email', 'created_at']),
+        ]);
+    });
+
     Route::get('/users/create', function () {
         return Inertia::render('Users/Create');
     })->can('create', App\Models\User::class);
