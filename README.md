@@ -261,5 +261,16 @@ Note: Inertia now includes default progress indicator.
 
 ### Key Points
 
-- [ ] Directory structure for Inertia.
-- [ ] How to create a form in vue and inertia.
+- Directory structure for Inertia.
+- How to create a form in vue and inertia.
+
+## 20 Display Failed Validation Message
+
+### TODO
+
+- [ ] Add a link to create a new user in `/users`.
+- [ ] Show error messages if the validation in server-side failed.
+
+### Key Points
+
+- How to show validation error messages in Inertia.
