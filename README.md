@@ -236,3 +236,18 @@ Note: Inertia now includes default progress indicator.
 
 - How to use pagination in Inertia.
 - How to filter the props in pagination.
+
+## 18 Filtering, State, and Query Strings
+
+### TODO
+
+- [ ] Add and input element next to the "Users" heading.
+- [ ] When the input is changed, show the content in the console.
+- [ ] When the input is changed, send get request to the backend. Don't lose the inputted text on page transition.
+- [ ] Handle query in the backend. Ensure that the query string is preserved when navigating to another page.
+- [ ] Set the default value of the input to search query.
+- [ ] Prevent pages from being added to history every time an input is entered.
+
+### Key Points
+
+- How to handle query in Inertia and Laravel.
