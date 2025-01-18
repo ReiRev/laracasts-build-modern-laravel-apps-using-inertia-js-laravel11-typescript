@@ -328,3 +328,23 @@ Note: Inertia now includes default progress indicator.
 
 - How to pass authorization info from the backend to the frontend
 - Authorization in Laravel
+
+# Inertia and SPA Techniques
+
+## 01 Import Aliases
+
+This was already done.
+
+## 02 Code Splitting Strategies
+
+This was almost done already.
+
+### TODO
+
+- [ ] Split Pagination in Users/Index.vue from Index.
+
+### Key Points
+
+- How to split the build files.
+
+

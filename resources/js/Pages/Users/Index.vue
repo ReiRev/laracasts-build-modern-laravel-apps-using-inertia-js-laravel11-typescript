@@ -1,9 +1,12 @@
 <script setup lang="ts">
-import Pagination from '@/Shared/Pagination.vue'
 import type { PaginatedData } from '@/types'
-import { ref, watch } from 'vue'
+import { defineAsyncComponent, ref, watch } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { debounce } from 'lodash'
+
+const Pagination = defineAsyncComponent(
+  () => import('@/Shared/Pagination.vue'),
+)
 
 interface UserData {
   id: string
