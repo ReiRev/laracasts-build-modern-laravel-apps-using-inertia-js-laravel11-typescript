@@ -298,3 +298,18 @@ Note: Inertia now includes default progress indicator.
 ### Key Points
 
 - Two ways to limit too frequent get requests and their difference.
+
+## 23 Authentication with Inertia
+
+### TODO
+
+- [ ] Make all the routes created so far require login.
+- [ ] Create a route to `/login` and LoginController.
+- [ ] Implement the login functionality for the frontend and backend.
+- [ ] Display the actual username to the heading.
+- [ ] Create a logout link to the navigation bar.
+
+### Key Points
+
+- `redirect()->intended()`
+- How to handle authentication in Inertia.

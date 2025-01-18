@@ -2,7 +2,7 @@
 import { defineProps } from 'vue'
 defineProps<{
   href: string
-  active: boolean
+  active?: boolean
 }>()
 </script>
 

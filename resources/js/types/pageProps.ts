@@ -1,7 +1,7 @@
 import type { PageProps as BasePageProps } from '@inertiajs/core'
 
 export interface PageProps extends BasePageProps {
-  auth: AuthData
+  auth?: AuthData
   users: Array<UserData>
 }
 
