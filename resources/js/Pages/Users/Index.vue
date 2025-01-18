@@ -3,6 +3,7 @@ import Pagination from '@/Shared/Pagination.vue'
 import type { PaginatedData } from '@/types'
 import { ref, watch } from 'vue'
 import { router } from '@inertiajs/vue3'
+import { debounce } from 'lodash'
 
 interface UserData {
   id: string
@@ -21,13 +22,16 @@ const props = defineProps<{
 }>()
 
 const search = ref(props.filters.search)
-watch(search, (value) => {
-  router.get(
-    '/users',
-    { search: value },
-    { preserveState: true, replace: true },
-  )
-})
+watch(
+  search,
+  debounce((value) => {
+    router.get(
+      '/users',
+      { search: value },
+      { preserveState: true, replace: true },
+    )
+  }, 500),
+)
 </script>
 
 <template>
