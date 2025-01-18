@@ -251,3 +251,15 @@ Note: Inertia now includes default progress indicator.
 ### Key Points
 
 - How to handle query in Inertia and Laravel.
+
+## 19 Inertia Forms 101
+
+### TODO
+
+- [ ] Create a vue file for page to create a new user. Refactor the directory structure. 
+- [ ] Implement frontend and backend logic for creating a new user.
+
+### Key Points
+
+- [ ] Directory structure for Inertia.
+- [ ] How to create a form in vue and inertia.
