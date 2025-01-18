@@ -1,15 +1,15 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { router, usePage } from '@inertiajs/vue3'
+import { router, useForm, usePage } from '@inertiajs/vue3'
 
-const form = ref({
+const form = useForm({
   name: '',
   email: '',
   password: '',
 })
 
 const submit = () => {
-  router.post('/users', form.value)
+  form.post('/users')
 }
 
 const page = usePage()
@@ -41,8 +41,8 @@ const page = usePage()
         required
       />
       <div
-        v-if="page.props.errors.name"
-        v-text="page.props.errors.name"
+        v-if="form.errors.name"
+        v-text="form.errors.name"
         class="text-red-500 text-xs"
       ></div>
     </div>
@@ -63,8 +63,8 @@ const page = usePage()
         required
       />
       <div
-        v-if="page.props.errors.email"
-        v-text="page.props.errors.email"
+        v-if="form.errors.email"
+        v-text="form.errors.email"
         class="text-red-500 text-xs"
       ></div>
     </div>
@@ -85,8 +85,8 @@ const page = usePage()
         required
       />
       <div
-        v-if="page.props.errors.password"
-        v-text="page.props.errors.password"
+        v-if="form.errors.password"
+        v-text="form.errors.password"
         class="text-red-500 text-xs"
       ></div>
     </div>
@@ -95,6 +95,7 @@ const page = usePage()
       <button
         type="submit"
         class="bg-blue-400 text-white rounded py-2 px-4 hover:bg-blue-500"
+        :disabled="form.processing"
       >
         Submit
       </button>

@@ -274,3 +274,15 @@ Note: Inertia now includes default progress indicator.
 ### Key Points
 
 - How to show validation error messages in Inertia.
+
+## 21 Inertia's Form Helper
+
+### TODO
+
+- [ ] Make the submit button disabled when the button is pressed.
+- [ ] Achieve the same things with inertia's form helper.
+
+### Key Points
+
+- Problems of the form in the previous episode.
+- Inertia's form helper.
