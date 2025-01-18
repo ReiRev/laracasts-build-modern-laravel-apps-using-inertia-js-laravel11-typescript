@@ -6,8 +6,12 @@ import Layout from './Shared/Layout.vue'
 createInertiaApp({
   resolve: async (name) => {
     const pages = import.meta.glob('./Pages/**/*.vue')
-    const page = (await pages[`./Pages/${name}.vue`]()) as DefineComponent
-    page.default.layout ??= Layout
+    const page = (await pages[
+      `./Pages/${name}.vue`
+    ]()) as DefineComponent
+    if (page.default.layout === undefined) {
+      page.default.layout ??= Layout
+    }
     return page
   },
   setup({ el, App, props, plugin }) {
