@@ -313,3 +313,16 @@ Note: Inertia now includes default progress indicator.
 
 - `redirect()->intended()`
 - How to handle authentication in Inertia.
+
+## 24 Authorization Tips
+
+### TODO
+
+- [ ] Display the “New User” link only when the logged-in user’s email address matches a specific value.
+- [ ] Make `/users/create` accessible only to the authorized user.
+- [ ] Implement a policy to determine whether the logged-in user can edit other users, and handle the implementation on both the frontend and backend. However, it’s fine to randomize who can edit whom.
+
+### Key Points
+
+- How to pass authorization info from the backend to the frontend
+- Authorization in Laravel
