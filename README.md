@@ -286,3 +286,15 @@ Note: Inertia now includes default progress indicator.
 
 - Problems of the form in the previous episode.
 - Inertia's form helper.
+
+## 22 Better Performance with Throttle And Debounce
+
+### TODO
+
+- [ ] Use throttle to limit get requests.
+- [ ] Use debounce to limit get requests.
+- [ ] 
+
+### Key Points
+
+- Two ways to limit too frequent get requests and their difference.
