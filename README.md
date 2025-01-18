@@ -4,7 +4,7 @@ This repository replicates [Build Modern Laravel Apps Using Inertia.js](https://
 
 I recommend using this repository as supplementary material while referring to the original video.
 
-If you find this repository helpful, please give it a star! ⭐ It would really boost my motivation to keep creating and improving. Thank you!
+If you find this repository helpful, please give it a star! ⭐ It would really boost my motivation. Thank you!
 
 ## Branches
 
